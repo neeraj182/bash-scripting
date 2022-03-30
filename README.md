@@ -13,4 +13,5 @@
 7. https://goalkicker.com/BashBook/
 
 **For solving exercises based on bash scripting, try only after clearing your basics.**
-https://exercism.org/docs/tracks/bash
+https://exercism.org/tracks/bash
+
