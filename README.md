@@ -4,7 +4,7 @@
 # Learn Bash Scripting With Me
 
 ## Resources
-1. Bash manual, type **man bash in terminal**.
+1. Bash manual, type **man bash** in terminal.
 2. http://mywiki.wooledge.org/BashGuide **BASH GUIDE**
 3. http://mywiki.wooledge.org/BashFAQ **BashFAQ**
 4. https://mywiki.wooledge.org/BashPitfalls **BashPitfalls**
