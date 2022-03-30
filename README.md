@@ -1,1 +1,1 @@
-https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flabs.library.concordia.ca%2Fwp-content%2Fuploads%2F2020%2F10%2F2.jpeg&f=1&nofb=1
+![image](https://user-images.githubusercontent.com/89995906/160864543-6bec9637-cb5d-4d26-b05e-33e221423613.png)
