@@ -15,3 +15,7 @@
 **For solving exercises based on bash scripting, try only after clearing your basics.**
 https://exercism.org/tracks/bash
 
+## Role of this Repo
+- You can use various resources mentioned, to learn bash scripting with me.
+- You can add your own scripts that you have created while learning.
+- You can also add more resources, for learning bash scripting.
