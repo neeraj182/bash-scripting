@@ -31,3 +31,13 @@ Subject: ${sub}
 ${body}")
 
 echo "SSL PROTECTED"
+
+# -T transfers the contents of the file to the server.
+# --url specifies the URL of the SMTP server.
+# < (echo -e) is used to send the contents of the file to the server
+# --ssl-reqd specifies that the connection should be made using SSL.
+# -s specifies that the connection should be made silently.
+# --mail-from specifies the sender of the email.
+# --mail-rcpt specifies the recipient of the email.
+# --user specifies the username and password of the SMTP server.
+#  smtps://smtp.gmail.com:465 is the URL of the SMTP server.
