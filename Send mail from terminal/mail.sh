@@ -30,4 +30,4 @@ Subject: ${sub}
 
 ${body}")
 
-echo "Sent successfully"
+echo "SSL PROTECTED"
