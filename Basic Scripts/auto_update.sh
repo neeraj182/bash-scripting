@@ -1,13 +1,16 @@
-#!/bin/bash
+#!/bin/bash 
 
 echo "Running package update"
-sudo pacman -Syu
+sudo pacman -Syu 2> error.txt
+echo $?
 
 echo "Listing all orphan packages"
-sudo pacman -Qdt
+sudo pacman -Qdt 2> error.txt
 
 echo "Removing orphan packages"
-sudo pacman -Rs $(pacman -Qdtq)
+sudo pacman -Rs $(pacman -Qdtq) 
+echo $?
 
 echo "Removing old packages cache files, except for the latest three package versions  "
-sudo paccache -rvk3
+sudo paccache -rvk3 
+echo $?
