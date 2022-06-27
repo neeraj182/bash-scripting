@@ -1,14 +1,14 @@
 #!/bin/bash
 
 # Input for sender email
-read -p "Enter your email : " sender
+read -p "Enter your Gmail  : " sender
 
 
 # Input for recipient email
 read -p "Enter recipient email : " receiver
 
 # Input for google app password
-read -p "Enter your Google App Password : " gapp
+read -p "Enter your Gmail Password : " gapp
 
 # Input for subject of the mail
 read -p "Enter the subject of mail : " sub
