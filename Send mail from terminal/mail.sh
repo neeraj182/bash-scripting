@@ -1,14 +1,14 @@
 #!/bin/bash
 
 # Input for sender email
-read -p "Enter your email : " sender
+read -p "Enter your Gmail  : " sender
 
 
 # Input for recipient email
 read -p "Enter recipient email : " receiver
 
 # Input for google app password
-read -p "Enter your Google App Password : " gapp
+read -p "Enter your Gmail Password : " gmail
 
 # Input for subject of the mail
 read -p "Enter the subject of mail : " sub
@@ -23,7 +23,7 @@ rm tempfile.txt # rm command to remove the file
 curl -s --url 'smtps://smtp.gmail.com:465' --ssl-reqd \ # curl command to send email
 --mail-from $sender \
 --mail-rcpt $receiver \
---user $sender:$gapp \
+--user $sender:$gmail \
 -T <(echo -e "From: ${sender}  
 To: ${receiver}
 Subject: ${sub}
